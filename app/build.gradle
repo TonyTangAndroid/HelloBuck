@@ -2,6 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
 
+    //noinspection GradleDependency
+    buildToolsVersion '28.0.2'
+
     signingConfigs {
         tony_dev_sign {
             keyAlias 'tony_dev_sign'

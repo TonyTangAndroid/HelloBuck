@@ -4,11 +4,13 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.2'
-        
+        //noinspection GradleDependency
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.uber:okbuck:0.47.1'
+
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -18,10 +20,20 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+apply plugin: 'com.uber.okbuck'
+okbuck {
+    lint {
+        disabled = true
+    }
+    externalDependencies {
+        downloadInBuck = false
+    }
 }

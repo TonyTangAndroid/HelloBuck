@@ -6,3 +6,10 @@
 /build
 /captures
 .externalNativeBuild
+.buckconfig
+buck-out
+BUCK
+.okbuck
+.buckd
+buckw
+.watchmanconfig
