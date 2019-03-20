@@ -2,8 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
 
-    //noinspection GradleDependency
-    buildToolsVersion '28.0.2'
+    buildToolsVersion '28.0.3'
 
     signingConfigs {
         tony_dev_sign {
