@@ -17,13 +17,13 @@
 3. Build the okbuck for all targets.
 
  ```
- ./buckw build ...
+./buckw build //...
  ```
 
 4. List all targets.
 
  ```
- ./buckw targets ...
+./buckw targets //...
  ```
 
 
