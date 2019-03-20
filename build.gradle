@@ -30,7 +30,7 @@ task clean(type: Delete) {
 apply plugin: 'com.uber.okbuck'
 okbuck {
     lint {
-        disabled = true
+        version = '26.3.2'
     }
     externalDependencies {
         downloadInBuck = false
