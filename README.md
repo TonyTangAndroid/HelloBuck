@@ -8,22 +8,19 @@
 2. Install a debug version and run it.
 
  ```
- ./buckw install //app:bin_debug --run
+./buckw install //app:bin_debug --run
  ```
-
 
 ## Optional commands
 
-3. Build the okbuck for all targets.
-
- ```
-./buckw build //...
- ```
-
-4. List all targets.
+3. List all targets.
 
  ```
 ./buckw targets //...
  ```
 
+4. Build the okbuck for all targets.
 
+ ```
+./buckw build //...
+ ```
