@@ -2,6 +2,8 @@ apply plugin: 'com.android.application'
 
 android {
 
+    buildToolsVersion '28.0.3'
+
     signingConfigs {
         tony_dev_sign {
             keyAlias 'tony_dev_sign'
