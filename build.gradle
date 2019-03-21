@@ -29,6 +29,8 @@ task clean(type: Delete) {
 
 apply plugin: 'com.uber.okbuck'
 okbuck {
+    buildToolVersion = '28.0.3'
+
     lint {
         disabled = true
     }
