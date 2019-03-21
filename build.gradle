@@ -32,7 +32,7 @@ okbuck {
     buildToolVersion = '28.0.3'
 
     lint {
-        disabled = true
+        version = '26.3.2'
     }
     externalDependencies {
         downloadInBuck = false
