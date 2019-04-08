@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+
+def mavenUrl = (System.env.MAVEN_URL != null ? System.env.MAVEN_URL : 'https://maven.google.com')
+
+
+android {
+  compileSdkVersion 28
+
+  defaultConfig {
+    minSdkVersion 15
+    targetSdkVersion 28
+    versionCode 1
+    versionName "1.0"
+    buildConfigField "String", "MAVEN_URL", "\"${mavenUrl}\""
+
+  }
+
+}
