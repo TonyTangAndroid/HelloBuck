@@ -2,8 +2,8 @@ package com.example.hellobuck;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView tv_hello = findViewById(R.id.tv_hello);
-        tv_hello.setText("Hello from Code");
+        tv_hello.setText("Hello for AndroidX");
 
     }
 }
