@@ -1,4 +1,4 @@
-# An okbuck sample that actually work with just two command line.
+# An okbuck sample that works with AndroidX within two command line.
 
 
 
@@ -34,3 +34,27 @@
  ```
 ./buckw build //...
  ```
+
+
+
+## The configuration
+
+This is the key configuration to make it works.
+
+```
+apply plugin: 'com.uber.okbuck'
+okbuck {
+    buildToolVersion = '28.0.3'
+
+    lint {
+        disabled = true
+    }
+    externalDependencies {
+        downloadInBuck = false
+    }
+    jetifier {
+        aarOnly = true
+    }
+}
+
+```
