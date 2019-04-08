@@ -13,3 +13,4 @@ BUCK
 .buckd
 buckw
 .watchmanconfig
+targets_list
