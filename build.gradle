@@ -37,4 +37,7 @@ okbuck {
     externalDependencies {
         downloadInBuck = false
     }
+    jetifier {
+        aarOnly = true
+    }
 }
