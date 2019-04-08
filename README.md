@@ -18,7 +18,7 @@
  The apk is generated under folder
  
  ```
- /Users/tonythompson/code/HelloBuck/buck-out/gen/app/bin_debug.apk
+ #root/buck-out/gen/app/bin_debug.apk
  ```
 
 ## Optional commands
