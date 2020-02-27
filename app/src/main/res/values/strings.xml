@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">helloBuck AndroidX</string>
+    <string name="app_name">helloBuck </string>
+    <string name="go_to_test">Go to test</string>
+    <string name="hello_world">Hello world</string>
+    <string name="leak">Leak Activity</string>
 </resources>
