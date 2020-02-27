@@ -8,7 +8,6 @@
 .externalNativeBuild
 .buckconfig
 buck-out
-BUCK
 .okbuck
 .buckd
 buckw
