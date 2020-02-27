@@ -9,7 +9,7 @@ buildscript {
     dependencies {
         //noinspection GradleDependency due to NDK error
         classpath 'com.android.tools.build:gradle:3.3.2'
-        classpath 'com.uber:okbuck:0.48.0'
+        classpath 'com.uber:okbuck:0.50.3'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -30,7 +30,7 @@ task clean(type: Delete) {
 
 apply plugin: 'com.uber.okbuck'
 okbuck {
-    buildToolVersion = '28.0.3'
+    buildToolVersion = '29.0.2'
 
     lint {
         disabled = true
