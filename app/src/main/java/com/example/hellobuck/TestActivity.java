@@ -19,6 +19,6 @@ public class TestActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        TestDataModel.getInstance().setRetainedTextView(null);
+        //TestDataModel.getInstance().setRetainedTextView(null);
     }
 }
